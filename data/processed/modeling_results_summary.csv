@@ -1,0 +1,16 @@
+category,metric,value,interpretation
+Dataset,Grid cells,"17,737",Number of 1 km spatial grid cells used for modeling.
+Dataset,Modeling features,7,"Elevation, slope, annual rainfall, NDVI, log population, maximum hazard, cumulative hazard."
+Spatial graph,Directed edges,"136,112",Neighbor relationships connecting spatially adjacent grid cells.
+GNN,Embedding dimensions,8,Each grid cell is represented by an 8-dimensional learned spatial embedding.
+GNN,Selected cluster count,2,Two spatial profiles were obtained from the selected GNN representation.
+GNN,Seed-42 silhouette,0.4883,Measures separation of the two clusters in the learned embedding space.
+GNN,Spatial neighbor agreement,0.9423,Average fraction of neighboring cells belonging to the same cluster.
+PCA baseline,Silhouette,0.4581,Deterministic baseline clustering performance after PCA.
+PCA baseline,Spatial neighbor agreement,0.9167,Spatial coherence of the deterministic baseline clusters.
+Model comparison,GNN silhouette improvement,+0.0302,Difference between selected GNN silhouette and PCA baseline silhouette.
+Model comparison,PCA-GNN ARI,0.7655,Strong agreement between PCA and GNN cluster assignments.
+Stability,Mean multi-seed silhouette,0.3460,Average silhouette across five GNN seeds in the 300-epoch stability experiment.
+Stability,Mean pairwise ARI,0.3419,Indicates that GNN cluster assignments remain sensitive to initialization.
+Interpretation,Cluster meaning,Spatial profiles,"Clusters represent learned spatial/environmental profiles, not independently observed disaster-severity classes."
+Limitation,Observed impact target,Not available,"The current dataset does not contain an independent historical disaster-impact target, so the model should not be described as a validated damage/severity predictor."
