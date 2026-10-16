@@ -1,0 +1,5 @@
+risk_category,grid_count,food_kits_allocated,water_units_allocated,medical_kits_allocated,rescue_teams_allocated
+High,8681,3770,7912,922,3
+Low,1007,0,0,0,0
+Moderate,6871,59,910,3,0
+Very High,1178,1171,1178,1075,47

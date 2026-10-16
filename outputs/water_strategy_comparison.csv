@@ -1,0 +1,4 @@
+strategy,risk_weight,population_weight,total_water_demand,total_water_allocated,unmet_water_demand,demand_coverage_pct,water_to_high_and_very_high_risk_grids,high_risk_allocation_share_pct,mean_risk_score_receiving_water
+balanced,0.5,0.5,34567452,10000,34557452,0.028928947380906178,6858,68.58,54.91318630536233
+risk_first,1.0,0.0,34567452,10000,34557452,0.028928947380906178,7753,77.53,58.47063706635524
+population_first,0.0,1.0,34567452,10000,34557452,0.028928947380906178,6178,61.78,51.931735996218244

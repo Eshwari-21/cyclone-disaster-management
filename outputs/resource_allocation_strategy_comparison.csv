@@ -1,0 +1,4 @@
+strategy,grid_cells,high_risk_grid_count,food_allocated,water_allocated,medical_allocated,rescue_teams_allocated,food_to_high_risk,water_to_high_risk,medical_to_high_risk,rescue_teams_to_high_risk,mean_risk_score_receiving_food,mean_risk_score_receiving_water,food_unmet_demand,food_grids_receiving,water_unmet_demand,water_grids_receiving,medical_unmet_demand,medical_grids_receiving,rescue_unmet_demand,rescue_grids_receiving
+balanced,17737,9859,5000,10000,2000,50,4941,9090,1997,50,68.50498793883627,62.01656683614529,3835828,5000,34557452,10000,45408,2000,18375,50
+risk_first,17737,9859,5000,10000,2000,50,5000,9859,2000,50,69.8345049194208,62.819067201086135,3835828,5000,34557452,10000,45408,2000,18375,50
+population_first,17737,9859,5000,10000,2000,50,2717,5904,1058,43,51.48906558196904,52.89724626200894,3835828,5000,34557452,10000,45408,2000,18375,50

@@ -1,0 +1,5 @@
+resource,top_priority_grid_count,total_grid_count,total_allocated,allocated_to_top_10_pct_grids,allocation_share_to_top_10_pct_pct
+food_kits,1773,17737,5000,1773,35.46
+water_units,1773,17737,10000,1773,17.73
+medical_kits,1773,17737,2000,1773,88.65
+rescue_teams,1773,17737,50,50,100.0

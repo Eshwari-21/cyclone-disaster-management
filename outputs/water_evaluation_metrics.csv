@@ -1,0 +1,2 @@
+grid_count,water_inventory_available,total_water_demand,total_water_allocated,total_unmet_water_demand,demand_coverage_pct,inventory_utilization_pct,grids_receiving_water,grids_with_unmet_water_demand
+17737,10000,34567452,10000,34557452,0.028928947380906178,100.0,6838,17639

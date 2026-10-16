@@ -1,0 +1,5 @@
+resource,inventory_available,total_demand,total_allocated,total_unmet_demand,demand_coverage_pct,inventory_utilization_pct,grids_receiving_resource,grids_with_unmet_demand
+food_kits,5000,3840828,5000,3835828,0.1301802632140778,100.0,5000,17639
+water_units,10000,34567452,10000,34557452,0.028928947380906178,100.0,10000,17639
+medical_kits,2000,47408,2000,45408,4.218697266284171,100.0,2000,17550
+rescue_teams,50,18425,50,18375,0.27137042062415195,100.0,50,17616

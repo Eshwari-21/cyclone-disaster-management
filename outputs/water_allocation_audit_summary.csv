@@ -1,0 +1,2 @@
+grid_count,total_water_demand,total_water_allocated,total_unmet_water_demand,grids_receiving_water,grids_receiving_no_water,maximum_allocation_per_grid,mean_priority_receiving_water,mean_priority_receiving_no_water,demand_coverage_pct
+17737,34567452,10000,34557452,6838,10899,37,0.6184317250398186,0.5259187204414861,0.028928947380906178
